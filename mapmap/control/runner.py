@@ -3,6 +3,7 @@
 from twisted.web import resource
 from twisted.web import server
 from twisted.internet import reactor
+from twisted.web import static
 
 class Simple(resource.Resource):
     isLeaf = True
